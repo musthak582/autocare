@@ -9,6 +9,9 @@ This project is suitable for **learning full-stack development**, **college proj
 
 ---
 
+## 🌐 Live Demo
+👉 **[View Live Application](https://autocare-ui.vercel.app)**
+
 ## ✨ Key Features
 
 ### 👤 Customer Side
@@ -27,16 +30,15 @@ This project is suitable for **learning full-stack development**, **college proj
 
 ---
 
-## 🖼️ Screenshots (Optional)
-_Add screenshots here if needed for GitHub or portfolio_
+## 🖼️ Screenshots
+### Booking
+![Booking Page](assets/bookings.png)
 
-```text
-/screenshots
-├── home.png
-├── booking-form.png
-├── admin-login.png
-└── admin-dashboard.png
-````
+### Admin Login
+![Admin Login Page](assets/admin-login.png)
+
+### Admin Dashboard
+![Admin Dashboard](assets/admin-dashboard.png)
 
 ---
 
@@ -75,9 +77,11 @@ Create a `.env` file inside the **backend** directory:
 
 ```env
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/vehicle-service
-JWT_SECRET=your_jwt_secret_key_here
-NODE_ENV=development
+MONGO_URI=mongodb+srv://maggi:maggi@notesapp.687bf1i.mongodb.net/autocare?appName=notesapp
+JWT_SECRET=supersecretkey123
+
+ADMIN_USERNAME=admin
+ADMIN_PASSWORD=admin123
 ```
 
 Start the backend server:
@@ -101,12 +105,6 @@ cd frontend
 npm install
 ```
 
-Create a `.env` file inside the **frontend** directory:
-
-```env
-REACT_APP_API_URL=http://localhost:5000/api
-```
-
 Start the frontend development server:
 
 ```bash
@@ -117,8 +115,8 @@ npm start
 
 ### 4️⃣ Access the Application
 
-* **Frontend:** [http://localhost:3000](http://localhost:3000)
-* **Backend API:** [http://localhost:5000](http://localhost:5000)
+* **Frontend:** [https://autocare-ui.vercel.app/](frontend)
+* **Backend API:** [https://autocare-backend.up.railway.app/api](backend)
 * **Admin Login:**
 
   * Username: `admin`
@@ -132,6 +130,7 @@ npm start
 vehicle-service-booking-system/
 ├── backend/
 │   ├── controllers/
+|   |   
 │   ├── models/
 │   │   ├── User.js
 │   │   ├── Booking.js
@@ -184,8 +183,6 @@ vehicle-service-booking-system/
 
 * `GET /api/services` – Get all services
 * `POST /api/services` – Create service
-* `PUT /api/services/:id` – Update service
-* `DELETE /api/services/:id` – Delete service
 
 ---
 
