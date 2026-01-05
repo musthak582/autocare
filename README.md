@@ -32,13 +32,13 @@ This project is suitable for **learning full-stack development**, **college proj
 
 ## 🖼️ Screenshots
 ### Booking
-![Booking Page](assets/bookings.png)
+![Booking Page](frontend/src/assets/bookings.png)
 
 ### Admin Login
-![Admin Login Page](assets/admin-login.png)
+![Admin Login Page](frontend/src/assets/admin-login.png)
 
 ### Admin Dashboard
-![Admin Dashboard](assets/admin-dashboard.png)
+![Admin Dashboard](frontend/src/assets/admin-dashboard.png)
 
 ---
 
