@@ -11,6 +11,8 @@ This project is suitable for **learning full-stack development**, **college proj
 
 ## 🌐 Live Demo
 👉 **[View Live Application](https://autocare-ui.vercel.app)**
+## 🌐 Github
+👉 **[View Full Code](https://github.com/musthak582/autocare)**
 
 ## ✨ Key Features
 
@@ -170,7 +172,6 @@ vehicle-service-booking-system/
 ### 🔐 Authentication
 
 * `POST /api/auth/login` – Admin login
-* `POST /api/auth/register` – Admin registration (optional)
 
 ### 📅 Bookings
 
