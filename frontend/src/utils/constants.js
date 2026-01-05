@@ -1,4 +1,4 @@
-export const API_BASE_URL = 'http://localhost:5000/api';
+export const API_BASE_URL = 'https://autocare-backend.up.railway.app/api';
 
 export const STATUS_OPTIONS = [
   { value: 'Pending', label: 'Pending', color: 'bg-yellow-100 text-yellow-800' },
